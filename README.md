@@ -57,7 +57,7 @@ To gain the most from this document, possess a foundational understanding of the
 
 ### What Is Geth?
 
-Geth (Go Ethereum) is the leading open-source implementation of the Ethereum protocol, written in Go. This crucial execution client allows you to run Ethereum nodes, interact with the blockchain, deploy smart contracts, and contribute to network decentralization. Geth handles the core logic of the blockchain.
+Geth, or Go Ethereum, is the leading open-source realization of the Ethereum protocol, written in the beautiful Go programming language. This important execution client allows users to run Ethereum nodes, interact with the blockchain, deploy smart contracts, and contribute to the network's decentralization. Geth is the very backbone of the logic that supports the blockchain.
 
 ### Key Characteristics
 
@@ -80,7 +80,7 @@ Geth (Go Ethereum) is the leading open-source implementation of the Ethereum pro
 
 ### Dual-Client Design
 
-Post-Merge Ethereum requires two clients: an execution client (Geth) and a consensus client. Geth handles transaction processing, state management, and EVM execution. It communicates with consensus clients through the Engine API. This modular approach enhances security and enables client diversity.
+Post-Merge Ethereum has two clients: an execution client (Geth) and a consensus client. Transaction processing, state management, and EVM execution are processed in Geth, while it communicates with the consensus clients using the Engine API. Its modularity increases security and allows client diversity.
 
 ### Core Components
 
