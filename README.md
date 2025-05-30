@@ -91,6 +91,8 @@ Post-Merge Ethereum requires two clients: an execution client (Geth) and a conse
 **Blockchain State Management:** The `core/state` and `triedb` packages maintain the world state. This includes all accounts, balances, and smart contract storage. Geth uses a Merkle Patricia Trie structure (`trie` package) for efficient, verifiable state storage.
 
 ![Geth Architecture](image.png "Geth Architecture Diagram")
+
+
 **Figure 1: Geth's Layered State Storage Model**
 
 This diagram visually represents Geth's layered state storage architecture. The "Disk layer (singleton trie)" acts as the persistent base, while multiple "diff layers" remain in memory, tracking recent modifications. This layered approach enables efficient state updates, blockchain reorganization handling, and supports features like state pruning.
